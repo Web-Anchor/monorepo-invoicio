@@ -6,7 +6,9 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "commit": "./commit.sh",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "build:platform": "turbo run build --filter=platform",
+    "build:portal": "turbo run build --filter=portal"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
