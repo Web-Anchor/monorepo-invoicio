@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = ".next"
+  command = "turbo run build --filter platform"
+  publish = "apps/platform/.next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
